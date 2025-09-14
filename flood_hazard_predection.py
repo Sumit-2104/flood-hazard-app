@@ -341,7 +341,7 @@ else:
 
 # Commented out IPython magic to ensure Python compatibility.
 # Install required packages
-!pip install streamlit pyngrok
+#!pip install streamlit pyngrok
 
 # Run the app with public link
 from pyngrok import ngrok
@@ -352,7 +352,7 @@ public_url = ngrok.connect(port=8501)
 print("🔗 Your Streamlit app is live at:", public_url)
 
 # Install required packages
-!pip install streamlit pyngrok
+#!pip install streamlit pyngrok
 
 lse
 
