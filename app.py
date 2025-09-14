@@ -143,7 +143,7 @@ As in the picture we have to make an another column to denote the flood hazard i
 # files.download('New_cleaned_flood_data.csv')
 
 import pandas as pd
-combined_df = pd.read_csv("https://github.com/Sumit-2104/flood-hazard-app/blob/main/New_cleaned_flood_data%20.csv")
+combined_df = pd.read_csv("new_cleaned_flood_data.csv")
 
 """# **WEEK - 2**
 
