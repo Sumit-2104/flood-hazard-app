@@ -333,9 +333,9 @@ os.chdir('flood_app')
 # Copy dataset file into the flood_app folder
 import shutil
 # Check if the dataset file exists in the parent directory before copying
-dataset_file_path = '../New_cleaned_flood_data.csv'
+dataset_file_path = '../new_cleaned_flood_data.csv'
 if os.path.exists(dataset_file_path):
-    shutil.copy(dataset_file_path, 'New_cleaned_flood_data.csv')
+    shutil.copy(dataset_file_path, 'new_cleaned_flood_data.csv')
 else:
     print(f"Error: Dataset file not found at {dataset_file_path}")
 
@@ -346,7 +346,7 @@ else:
 
 # Commented out IPython magic to ensure Python compatibility.
 # Run the app with public link
-from pyngrok import ngrok
+#from pyngrok import ngrok
 # %cd flood_app
 # !streamlit run app.py &
 
