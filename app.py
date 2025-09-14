@@ -278,7 +278,7 @@ plt.title("Feature Importance for Hazard Category")
 # os.makedirs('flood_app', exist_ok=True)
 
 # Writing Streamlit app code into app.py
-app_code = '''
+app_code = 
 import streamlit as st
 import joblib
 import numpy as np
@@ -321,7 +321,7 @@ if st.button("🔍 Predict Risk"):
     predicted_category = category_mapping[prediction]
 
     st.success(f"🏷️ Predicted Flood Hazard Category: **{predicted_category}**")
-'''
+
 
 with open('flood_app/app.py', 'w') as f:
     f.write(app_code)
