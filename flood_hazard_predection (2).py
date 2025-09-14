@@ -340,7 +340,7 @@ else:
     print(f"Error: Dataset file not found at {dataset_file_path}")
 
 # Install required packages
-!pip install streamlit pyngrok
+#n!pip install streamlit pyngrok
 
 
 
@@ -348,7 +348,7 @@ else:
 # Run the app with public link
 from pyngrok import ngrok
 # %cd flood_app
-!streamlit run app.py &
+# !streamlit run app.py &
 
 public_url = ngrok.connect(port=8501)
 print("🔗 Your Streamlit app is live at:", public_url)
