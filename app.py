@@ -350,6 +350,6 @@ else:
 # %cd flood_app
 # !streamlit run app.py &
 
-public_url = ngrok.connect(port=8501)
-print("🔗 Your Streamlit app is live at:", public_url)
+# public_url = ngrok.connect(port=8501)
+# print("🔗 Your Streamlit app is live at:", public_url)
 
