@@ -25,8 +25,11 @@ This structured dataset lays the foundation for merging with demographic and inf
 """
 
 # Install tabula-py and Java (required for PDF table extraction)
-!pip install tabula-py
-!apt-get install -y openjdk-11-jre-headless
+# !pip install tabula-py
+# !apt-get install -y openjdk-11-jre-headless
+with open('requirements.txt', 'w') as f:
+    f.write('streamlit\njoblib\npandas\nnumpy\ntabula-py\n')
+
 
 """**2. Upload Your PDF for data extraction**"""
 
